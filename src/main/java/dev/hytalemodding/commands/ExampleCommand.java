@@ -14,6 +14,6 @@ public class ExampleCommand extends CommandBase {
 
     @Override
     protected void executeSync(@Nonnull CommandContext context) {
-        context.sendMessage(Message.raw("Hello from ExampleCommand!"));
+        context.sendMessage(Message.raw("Hello from ExampleCommand! :P"));
     }
 }
